@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: right;
+    margin-top:200px;
+    margin-right: 50px;
+    background-image: url("images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
+    background-size: cover;
+    color: #f2f2f2;
+}
+h2{
+    font-family: "Baskerville Old Face";
+    font-size: 40px;
+}
+.subtitle{
+    font-family: Calibri;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: right;
+    font-family: "system-ui";
+    margin-left: 300px;
+    justify-items: right;
+}
+button{
+    margin-top:40px;
+    margin-right: 150px;
+    padding: 20px 35px;
+    font-size: 25px;
+    font-family: "Cooper Black";
+    border-radius: 15px;
+    box-shadow:  black 5px 5px;
+    background-color: deepskyblue;
+    color:white;
+}
+button:hover{
+    background-color: whitesmoke;
+    color:black;
+}

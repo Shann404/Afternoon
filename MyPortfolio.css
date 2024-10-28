@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+
+}
+
+.header{
+    background-image: linear-gradient(rgba(4,9,28,0.7),rgba(4,9,28,0.7)) ,url("images/david-vives-AXFgdRm05fI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height:80vh;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    padding: 25px;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-family: "Segoe Script";
+}
+.content{
+    font-size: 20px;
+    font-family: "sans-serif";
+    margin-bottom: 0px;
+}
+.svg{
+    font-size: 50px;
+    justify-content: space-around;
+}
+
+.middle{
+ margin-top: 30px;
+}
+
+.about{
+    font-family: "Bodoni MT Black";
+}
+.info{
+    font-family: "calibri body";
+    font-size: 15px;
+    line-height: normal;
+}
+.cv{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-size: 10px;
+}
+.contact{
+    font-size: 10px;
+    padding:5px 10px;
+    border-radius: 6px;
+
+}
+.last{
+    margin-top: 28px;
+    background: #f2f2f2;
+}
+.services{
+    text-align: center;
+    font: bold;
+    font-family: "Bodoni MT Black";
+
+}
+.row{
+    font-size: 10px;
+    font-family: "Calibri body";
+    text-align: center;
+    width: 100%;
+}
+h4{
+    font-size: 15px;
+    font-family:"Arial Black";
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.col-md-4{
+    margin: 10px 8px;
+    flex-basis: 31%;
+    background: rgb(252, 238, 238);
+    padding: 20px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+}
+ul{
+ display: flex;
+list-style: none;
+width:100%;
+}
+li{
+    margin: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks ul li:after{
+content: "";
+width: 0;
+height: 2px;
+background: rgb(219, 219, 209);
+display:block;
+margin:auto;
+transition: 0.3s;
+}
+
+
+
+
+
